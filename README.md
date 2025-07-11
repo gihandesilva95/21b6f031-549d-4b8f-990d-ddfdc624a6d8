@@ -42,6 +42,13 @@ cp .env.example .env
 php artisan key:generate
 ```
 
+5. Setting up data files
+```bash
+mkdir -p storage/app/data
+
+Copy sample data JSON files in the data/ directory to storage/app/data directory
+```
+
 ##  Running the Application
 
 ### Direct Laravel Commands
